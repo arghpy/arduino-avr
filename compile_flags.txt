@@ -1,0 +1,13 @@
+-target
+avr
+-mmcu=atmega328p
+-I
+/usr/avr/include/
+-I
+/usr/avr/include/compat
+-I
+/usr/avr/include/util
+-I
+/usr/avr/include/sys
+-I
+/usr/avr/include/avr
