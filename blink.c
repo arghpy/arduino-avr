@@ -3,8 +3,7 @@
 #include <avr/io.h>
 #include <util/delay.h>
 
-int main(void)
-{
+int main(void) {
   // Set data for Port D2
   DDRD |= (1 << DDD2);
 
